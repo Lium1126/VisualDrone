@@ -15,6 +15,7 @@ Visual Droneは、GUIで指定した経路のとおりにドローンが飛行�
 
 - python3
 - pyparrot 1.5.3
+- Parrot MAMBO
 
 # Installation
 
