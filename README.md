@@ -3,6 +3,13 @@ This app provide operation for drone with GUI
 
 # DEMO
 
+Visual Droneは、GUIで指定した経路のとおりにドローンが飛行します。
+
+![全容図](./images/System.png)
+
+周辺のドローンを探索するボタンをクリックすると、以下のようなサブウィンドウが表示され、ペアリング可能なドローンをプルダウンメニューから選ぶことができます
+
+![サブウィンドウ](./images/Screenshot_subwindow.png)
 
 # Requirement
 
