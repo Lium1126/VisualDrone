@@ -5,80 +5,70 @@ This app provide operation for drone with GUI
 
 
 # Requirement
- 
+
 - python3
 - pyparrot 1.5.3
- 
+
 # Installation
 
 ## pyparrotのインストール
 
-  [https://pyparrot.readthedocs.io/en/latest/installation.html](pyparrot installation)から引用
-  
-  1. 依存パッケージのインストール
+[https://pyparrot.readthedocs.io/en/latest/installation.html](pyparrot installation)から引用
 
-    1. `untangle`パッケージをインストール
+### 依存パッケージのインストール
 
-      xmlデータを`parrot SDK`用にパースするパッケージ
+1. untangleパッケージをインストール:xmlデータを`parrot SDK`用にパースするパッケージ
 
-      ```bash
-      pip install untangle
-      ```
+```bash
+pip install untangle
+```
 
-    2. `zeroconf`パッケージをインストール
+2. zeroconfパッケージをインストール:Wifi接続用パッケージ
 
-      Wifi接続用パッケージ
+```bash
+pip install zeroconf
+```
 
-      ```bash
-      pip install zeroconf
-      ```
+3. pybluezをインストール:python版BLE接続用パッケージ(Linuxのみ・カメラ接続不可)
 
-    3. `pybluez`をインストール
+```bash
+sudo apt-get install bluetooth
+sudo apt-get install bluez
+sudo apt-get install python-bluez
+```
 
-      python版BLE接続用パッケージ(Linuxのみ・カメラ接続不可)
+4. bluepyをインストール:もう一つのBLE接続用パッケージ(先述のpybluezと両方必要)
 
-      ```bash
-      sudo apt-get install bluetooth
-      sudo apt-get install bluez
-      sudo apt-get install python-bluez
-      ```
+```bash
+sudo apt-get install python-pip libglib2.0-dev
+sudo pip install bluepy
+sudo apt-get update
+```
 
-    4. `bluepy`をインストール
+### pyparrotのインストール
 
-      もう一つのBLE接続用パッケージ(先述の`pybluez`と両方必要
+1. ソースからインストール
 
-      ```bash
-      sudo apt-get install python-pip libglib2.0-dev
-      sudo pip install bluepy
-      sudo apt-get update
-      ```
+```bash
+git clone https://github.com/amymcgovern/pyparrot
+cd pyparrot
+```
 
-  2. `pyparrot`のインストール
+2. pipを使ってインストール
 
-    1. ソースからインストール
-      
-      ```bash
-      git clone https://github.com/amymcgovern/pyparrot
-      cd pyparrot
-      ```
-    
-    2. pipを使ってインストール
-      
-      ```bash
-      pip install pyparrot
-      ```
- 
+```bash
+pip install pyparrot
+```
+
 # Usage
- 
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
- 
+
 ```bash
 git clone https://github.com/Lium1126/VisualDrone
 python3 VisualDrone2.py
 ```
 
 # Author
- 
+
 * Yoshiya Suzuki
 * Hamamatu Technical High School
 * 2019 - 2021
