@@ -13,7 +13,7 @@ This app provide operation for drone with GUI
 
 ## pyparrotのインストール
 
-[https://pyparrot.readthedocs.io/en/latest/installation.html](pyparrot installation)から引用
+[pyparrot installation](https://pyparrot.readthedocs.io/en/latest/installation.html)から引用
 
 ### 依存パッケージのインストール
 
