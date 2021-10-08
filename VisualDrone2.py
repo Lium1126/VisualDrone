@@ -295,25 +295,25 @@ map_canvas = tk.Canvas(root, width = 460, height = 460, bg = "white")
 map_canvas.place(x = 30, y = 27)
 
 # 画像表示
-maps = tk.PhotoImage(file = "map.png")
+maps = tk.PhotoImage(file = "images/map.png")
 map_canvas.create_image(0, 0, image = maps, anchor=tk.NW)
 #------------------------------------------
 
 #各ボタンを配置------------------------------
 # ボタンを配置
-Icon_search = PhotoImage(file = "Icon_search.png")
+Icon_search = PhotoImage(file = "images/Icon_search.png")
 searchDrone = tk.Button(root, image = Icon_search, text = "ドローンを探す", compound = TOP, command = lambda : searchMambo(searchDrone))
 searchDrone.place(x = 510, y = 10)
 
-Icon_takeoff = PhotoImage(file = "Icon_takeoff.png")
+Icon_takeoff = PhotoImage(file = "images/Icon_takeoff.png")
 takeOff = tk.Button(root, image = Icon_takeoff, text = "実行", compound = TOP, command = lambda : flyDrone(takeOff))
 takeOff.place(x = 510, y = 150)
 
-Icon_undo = PhotoImage(file = "Icon_undo.png")
+Icon_undo = PhotoImage(file = "images/Icon_undo.png")
 unDo = tk.Button(root, image = Icon_undo, text = "取り消し", compound = TOP, command = lambda : deleteLastPoint(unDo))
 unDo.place(x = 510, y = 290)
 
-Icon_clear = PhotoImage(file = "Icon_clear.png")
+Icon_clear = PhotoImage(file = "images/Icon_clear.png")
 clearPoint = tk.Button(root, image = Icon_clear, text = "全消去", compound = TOP, command = lambda: deleteAllPoint(clearPoint))
 clearPoint.place(x = 510, y = 430)
 #-----------------------------------------
