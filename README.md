@@ -1,4 +1,4 @@
-# VisualDrone
+# Visual Drone
 This app provide operation for drone with GUI
 
 # DEMO
@@ -79,4 +79,4 @@ python3 VisualDrone2.py
 
 * Yoshiya Suzuki
 * Hamamatu Technical High School
-* 2019 - 2021
+* 2018 - 2021
