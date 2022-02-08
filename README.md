@@ -79,4 +79,4 @@ python3 VisualDrone2.py
 
 * Yoshiya Suzuki
 * Hamamatu Technical High School
-* 2018 - 2021
+* 2018 - 2022
